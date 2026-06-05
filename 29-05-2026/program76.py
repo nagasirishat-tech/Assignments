@@ -1,0 +1,5 @@
+input_sequence=input("Enter a comms separated of words: ")
+words=input_sequence.split(',')
+sorted_words=sorted(words)
+sorted_sequence=','.join(sorted_words)
+print(f"Sorted words: {sorted_sequence}")

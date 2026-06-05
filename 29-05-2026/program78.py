@@ -1,0 +1,5 @@
+input_sequence=input("Enter a squence of whitespace-sepatrated words: ")
+words=set(input_sequence.split())
+sorted_words=sorted(words)
+result=' '.join(sorted_words)
+print("Result: ",result)
